@@ -2,6 +2,8 @@
 This is the official repository for the paper [AdaMuon: Adaptive Muon Optimizer](https://arxiv.org/abs/2507.11005).
 We now release the core code of AdaMuon. Full project codes will be public in the near future.
 
+For easy usage, we will also release the Megatron-LM like codes.
+
 ## Introduction
 
 AdaMuon is an effective extension of Muon that incorporates a diagonal second-momentum modulation applied to the orthogonalized gradients, and a RMS-aligned rescaling step. 
