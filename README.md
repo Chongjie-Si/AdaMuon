@@ -1,23 +1,32 @@
 # AdaMuon
-This is the official repository for the paper [AdaMuon: Adaptive Muon Optimizer](https://arxiv.org/abs/2507.11005).
-We now release the core code of AdaMuon. Full project codes will be public in the near future.
 
-For easy usage, we will also release the Megatron-LM like codes.
+This is the official repository for the paper [AdaMuon: Adaptive Muon Optimizer](https://arxiv.org/abs/2507.11005).
 
 ## Introduction
 
-AdaMuon is an effective extension of Muon that incorporates a diagonal second-momentum modulation applied to the orthogonalized gradients, and a RMS-aligned rescaling step. 
+AdaMuon is an effective optimizer based on Muon. It can achieve more than 40% training efficiency compared to AdamW.
 
-<img width="861" height="427" alt="截屏2025-07-18 13 04 17" src="https://github.com/user-attachments/assets/eddf691d-437c-40da-b757-7f7d17165686" />
+<img src='src/algorithm.png'>
 
+## Quick Start
+
+This repository contains two projects: one is the GPT-2 experiments, and the other is the open-sourced Megatron-LM code, which we included to facilitate large-scale experiments.
 
 ## Performance
 
-AdaMuon can achieve higher training costs reduction compared to Muon.
+<img src='src/p1.png'>
 
-<img width="864" height="386" alt="截屏2025-07-18 13 06 56" src="https://github.com/user-attachments/assets/62453054-93d4-4455-bc62-419efb7d915d" />
-<img width="1664" height="759" alt="截屏2025-07-18 13 07 32" src="https://github.com/user-attachments/assets/f69771c0-3ff2-4c7f-bb24-a38e708479dd" />
+<hr>
 
+<img src='src/p4.png'>
+
+<hr>
+
+<img src='src/p2.png'>
+
+<hr>
+
+<img src='src/p3.png'>
 
 ## Contact
 
